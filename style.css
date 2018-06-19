@@ -23,7 +23,7 @@ header h2 {
     float: right;
 }
 
-img {
+.jayne {
     display: inline-block;
     width: 500px;
     margin: 75px;
@@ -31,9 +31,14 @@ img {
 }
 
 .description {
-    display: block;
-    width: 700px;
+    display: inline-block;
+    width: 375px;
     margin: 75px;
+}
+
+#about {
+    width: 700px;
+    display: block;
     float: right;
 }
 
@@ -55,4 +60,25 @@ img {
 a {
     text-decoration: underline;
     display: block;
+}
+
+.website {
+    width: 375px;
+}
+
+.tech {
+    height: 50px;
+    width: 50px;
+}
+
+.link {
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 147px;
 }
