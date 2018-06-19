@@ -1,16 +1,22 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: sans-serif;
     outline: 2px solid red;
+    font-family: sans-serif;
+}
+
+#title {
+    font-family: 'Neucha', cursive;
+    font-size: 36px;
 }
 
 body {
-    background-color: #35204b;
+    background: radial-gradient(#2a191e, #6f5964);
+    -webkit-background: radial-gradient(#2a191e, #6f5964);
 }
 
 header {
-    background-color: lightgray;
+    background-color: #f7f7f7;
     padding: 2%;
 }
 
@@ -27,7 +33,7 @@ header h2 {
     width: 42%;
     height: 26em;
     margin: 3%;
-    border: 5px solid gray;
+    border: 5px solid #f7f7f7;
 }
 
 .description {
@@ -35,7 +41,8 @@ header h2 {
     height: 70%;
     width: 30%;
     margin: 1.5%;
-    background-color: white;
+    background: linear-gradient(to bottom right, #dccedc, #fefefe);
+    -webkit-background: linear-gradient(to bottom right, #dccedc, #fefefe);
 }
 
 #about {
@@ -52,7 +59,8 @@ header h2 {
 }
 
 .description h3 {
-    background-color: gray;
+    -webkit-background: linear-gradient(lightgray, gray, lightgray);
+    background: linear-gradient(lightgray, gray, lightgray);
     padding: 10px;
     font-size: 24px;
     color: white;
@@ -89,6 +97,7 @@ a {
     text-decoration: none;
     display: inline-block;
     margin: 10px;
+    box-shadow: 4px 6px 5px gray;
 }
 
 .linkholder {
