@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     font-family: sans-serif;
 }
 
@@ -18,6 +18,13 @@ body {
 header {
     background-color: #f7f7f7;
     padding: 2%;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 1%;
+    text-align: center;
+    color: black;
 }
 
 header * {
@@ -104,4 +111,17 @@ a {
     text-align: center;
     width: 100%;
     padding: 0px;
+}
+
+.icon {
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px;
+}
+
+.social-link {
+    font-style: italic;
+    display: inline-block;
+    margin: 10px 0px;
 }
