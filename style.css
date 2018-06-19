@@ -11,8 +11,7 @@ body {
 
 header {
     background-color: lightgray;
-    height: 50px;
-    padding: 20px;
+    padding: 2%;
 }
 
 header * {
@@ -25,21 +24,31 @@ header h2 {
 
 .jayne {
     display: inline-block;
-    width: 500px;
-    margin: 75px;
+    width: 42%;
+    height: 26em;
+    margin: 3%;
     border: 5px solid gray;
 }
 
 .description {
     display: inline-block;
-    width: 375px;
-    margin: 75px;
+    height: 70%;
+    width: 30%;
+    margin: 1.5%;
+    background-color: white;
 }
 
 #about {
-    width: 700px;
-    display: block;
-    float: right;
+    width: 42%;
+    height: 26em;
+    display: inline-block;
+    margin: 3%;
+    vertical-align: top;
+    border: 5px;
+}
+
+#about .content p {
+    height: auto;
 }
 
 .description h3 {
@@ -48,9 +57,9 @@ header h2 {
     font-size: 24px;
     color: white;
 }
-
-.content {
-    background-color: white;
+ 
+.content p {
+    height: 166px;
 }
 
 .content * {
@@ -63,12 +72,11 @@ a {
 }
 
 .website {
-    width: 375px;
+    width: 100%;
 }
 
 .tech {
-    height: 50px;
-    width: 50px;
+    width: 10%;
 }
 
 .link {
@@ -80,5 +88,11 @@ a {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    margin: 10px 147px;
+    margin: 10px;
+}
+
+.linkholder {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
 }
