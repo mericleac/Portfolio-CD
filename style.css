@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    outline: 2px solid red;
+}
+
+header {
+    background-color: lightgray;
+    height: 50px;
+    padding: 20px;
+}
+
+header * {
+    display: inline;
+}
+
+header h2 {
+    float: right;
+}
